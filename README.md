@@ -2,9 +2,8 @@
 
 Companion code for
 
-> M. Rowshan, *Bivariate Bicycle Codes and Metachecks: Syndrome Redundancy,
-> Repair Limits, and Logical Obstructions*, submitted to IEEE Transactions on
-> Information Theory.
+> M. Rowshan, *Metachecks in Bivariate Bicycle Codes: Syndrome Distance, 
+> Measurement Faults, and Repair Limits*, 2026, arXiv:2609.39121.
 
 The script `bb_manuscript_reproduce.py` recomputes every exact quantity in the
 paper that concerns syndrome redundancy and checks it against the printed
@@ -156,7 +155,7 @@ adaptive Monte Carlo sampling. It is not part of this repository.
 ```bibtex
 @article{rowshan_bb_metachecks,
   author  = {Rowshan, Mohammad},
-  title   = {BMetachecks in Bivariate Bicycle Codes: Syndrome Distance, Measurement Faults, and Repair Limits},
+  title   = {Metachecks in Bivariate Bicycle Codes: Syndrome Distance, Measurement Faults, and Repair Limits},
   year    = {2026},
   note = {arXiv:2609.39121}
 }
