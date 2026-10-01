@@ -41,7 +41,7 @@ second. Python 3.10 or newer is required (the code uses `int.bit_count`).
 | mu(g), w_amb, mu_bar | eq. (mu_g), Table *standard_codes* | exact search, see below |
 | exact repair curves, the 603 p^2 coefficient | Fig. *exact_repair*, eq. (603) | evaluated from the histograms, no sampling |
 
-Locations are given by the LaTeX labels of the manuscript, so they remain
+Locations are given by the LaTeX labels of the manuscript (find the source file on arXiv.org), so they remain
 valid if the numbering changes. The five standard codes are always audited.
 `--include-diagnostics` adds the seven rows of Table *diagnostic_codes*,
 including the three symmetric codes for which G -> A^x is not surjective.
@@ -143,12 +143,6 @@ status, hits, _ = cluster_search(code, 11, mode="logical", enumerate_all=True)
 print(sorted({(bin(z).count("1"), code.component(z)) for z in hits}))
 # [(10, 'C')]: only weight 10, and only colon classes
 ```
-
-## Not included
-
-The sustained phenomenological memory experiment (Fig. *sustained*,
-Table *sustained_codes*) depends on the `ldpc` package (version 2.4.1) and on
-adaptive Monte Carlo sampling. It is not part of this repository.
 
 ## Citation
 
