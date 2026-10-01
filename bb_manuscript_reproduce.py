@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Reproduce the exact calculations of the BB-metacheck manuscript.
 
 Companion code for
