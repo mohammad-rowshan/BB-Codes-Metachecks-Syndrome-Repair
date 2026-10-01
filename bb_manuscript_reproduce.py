@@ -3,8 +3,7 @@
 
 Companion code for
 
-    M. Rowshan, "Bivariate Bicycle Codes and Metachecks: Syndrome Redundancy,
-    Repair Limits, and Logical Obstructions" (submitted to IEEE Trans. Inf. Theory).
+    M. Rowshan, "Metachecks in Bivariate Bicycle Codes: Syndrome Distance, Measurement Faults, and Repair Limits," 2026, arXiv:2609.39121.
 
 Everything computed here is exact (GF(2) linear algebra and exhaustive
 searches); nothing depends on an iterative decoder or on random sampling.
